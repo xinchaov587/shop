@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'zh-CN',
 
     // 将factory改为默认中文
     'faker_locale' => 'zh_CN',
