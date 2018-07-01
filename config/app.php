@@ -80,6 +80,9 @@ return [
 
     'locale' => 'en',
 
+    // 将factory改为默认中文
+    'faker_locale' => 'zh_CN',
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
