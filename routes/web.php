@@ -29,5 +29,4 @@ Route::group(['middleware' => 'auth'], function() {
         // 删除用户收货地址逻辑
         Route::delete('user_addresses/{user_address}', 'UserAddressesController@destroy')->name('user_addresses.destroy');
     });
-
 });
